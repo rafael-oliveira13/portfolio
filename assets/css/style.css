@@ -1,14 +1,15 @@
 .header-content {
-	background: #333333;
+	background: #000000;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 }
 .header-title {
-	text-align: center;
+	text-align: left;
 	font-size: 3rem; 
 	padding: .5em;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-family: 'Share Tech','Montserrat', sans-serif;
 }
 .header-menu {	
 	list-style: none;
@@ -16,13 +17,13 @@
 }
 .menu-list {
   	text-align: center;	
-	text-decoration: none;
 }
 .menu-itens{
 	display: inline; 
 	padding: 2em;	
 }
 .menu-itens a {
+	color: white;
 	padding: 2px 10px;
 	font-size: 1.6em;
     display: inline-block;	
@@ -34,21 +35,17 @@
 	font-weight: bold;	
 	text-decoration: underline;
 }
-.menu-itens a:visited {
-	color: white;
-}
 .footer-content {
-	background: #000000;
+	background: url("/assets/image/footer-background.jpg");;
 }
 .footer-logo {
 	padding: 1em;
 	width: 200px;
 	display: block;
-  	margin-left: auto;
   	margin-right: auto;	
 }
 .footer-copyright {
-	text-align: center;
+	text-align: right;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	padding: .5em;
