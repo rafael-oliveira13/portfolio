@@ -1,8 +1,10 @@
+/* estilos do cabeçalho e seus componentes */
 .header-content {
 	background: #000000;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 }
+/* title */
 .header-title {
 	text-align: left;
 	font-size: 3rem; 
@@ -11,6 +13,7 @@
 	font-weight: bold;
 	font-family: 'Share Tech','Montserrat', sans-serif;
 }
+/* nav menu */
 .header-menu {	
 	list-style: none;
 	padding: 0.5em;	
@@ -35,16 +38,17 @@
 	font-weight: bold;	
 	text-decoration: underline;
 }
+/* estilos do rodapé e seus componentes*/
 .footer-content {
 	background: url("/assets/image/footer-background.jpg");;
 }
 .footer-logo {
 	padding: 1em;
 	width: 200px;
-	display: block;
-  	margin-right: auto;	
+	display: inline-block;  		
 }
-.footer-copyright {
+.footer-copyright {	
+	display: block;
 	text-align: right;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
